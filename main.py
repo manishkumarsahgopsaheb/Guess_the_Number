@@ -1,15 +1,15 @@
 
 def start_game():
     import random
-    # num1 and num2 are two random number which give
+    # num1 and num2 are two random number who give
     # you a range between which you have to guess the actual number
     num1 = random.randint(20, 25)
     num2 = random.randint(35, 40)
 
-    # num is the random generated number which you have to guess
+    # num is the random generated number which you have to guess in between num1 and num2
 
     num = random.randint(25, 35)
-    print(num)
+    # print(num)
     # This count will also defined your score
     count = int(input('how many life you want to give me?\n'))
     guessing_num = int(input("your Game start Now!\n"
